@@ -13,7 +13,7 @@ const Footer = () => {
       </a>{" "}
       | View{" "}
       <a
-        href="https://codesandbox.io/s/vigilant-hypatia-3pz7l"
+        href="https://github.com/PatrickVHessman/todoList-routing-redux"
         target="_blank"
         rel="noopener noreferrer"
       >
