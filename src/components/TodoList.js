@@ -38,7 +38,7 @@ const TodoList = (props) => {
   const handleEnter = (event) => {
     const key = event.key;
     if (key === "Enter" && newItem !== "") {
-      props.submitItem(newItem, props.title);
+      dispatch(addItem(title, newItem));
     }
   };
 
