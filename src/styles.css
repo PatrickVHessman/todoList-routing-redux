@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.App {
+  color: hsl(198, 1%, 29%);
+  font-family: "Roboto", sans-serif;
+}
+
+.App .container {
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: 4px 3px 7px 2px #00000040;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-top: 2rem;
+  max-width: 550px;
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+.App .input-group {
+  margin-bottom: 1rem;
+}
+
+.App .input-group-append {
+  background: #fff;
+}
+
+h2 {
+  text-align: center;
+}
+
+.main {
+  margin-top: 2rem;
+}
+
+.navbar-dark a {
+  color: hsla(0, 0%, 100%, 0.5);
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+footer {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.navbar-dark a:hover,
+footer a:hover {
+  color: hsla(0, 0%, 100%, 0.75);
+}
